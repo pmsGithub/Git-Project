@@ -13,6 +13,8 @@
 		C68FC95C263593CB003F6C6F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68FC947263593C2003F6C6F /* ContentView.swift */; };
 		C68FC95D263593CB003F6C6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C68FC948263593CB003F6C6F /* Assets.xcassets */; };
 		C68FC95E263593CB003F6C6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C68FC948263593CB003F6C6F /* Assets.xcassets */; };
+		C68FC96A26359FE5003F6C6F /* ModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68FC96926359FE5003F6C6F /* ModalView.swift */; };
+		C68FC96B26359FE5003F6C6F /* ModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68FC96926359FE5003F6C6F /* ModalView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,7 @@
 		C68FC955263593CB003F6C6F /* Git Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Git Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C68FC957263593CB003F6C6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C68FC958263593CB003F6C6F /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		C68FC96926359FE5003F6C6F /* ModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +62,7 @@
 			children = (
 				C68FC946263593C2003F6C6F /* Git_ProjectApp.swift */,
 				C68FC947263593C2003F6C6F /* ContentView.swift */,
+				C68FC96926359FE5003F6C6F /* ModalView.swift */,
 				C68FC948263593CB003F6C6F /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -187,6 +191,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C68FC96A26359FE5003F6C6F /* ModalView.swift in Sources */,
 				C68FC95B263593CB003F6C6F /* ContentView.swift in Sources */,
 				C68FC959263593CB003F6C6F /* Git_ProjectApp.swift in Sources */,
 			);
@@ -196,6 +201,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C68FC96B26359FE5003F6C6F /* ModalView.swift in Sources */,
 				C68FC95C263593CB003F6C6F /* ContentView.swift in Sources */,
 				C68FC95A263593CB003F6C6F /* Git_ProjectApp.swift in Sources */,
 			);
