@@ -14,6 +14,7 @@ struct ContentView: View {
             Button("Show Modal") {
                 self.isPresented = true
             } // button
+            .foregroundColor(.red)
             .sheet(isPresented: $isPresented) {
                 ModalView()
             .navigationBarTitle("Xcode and Git")
